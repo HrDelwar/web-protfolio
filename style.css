@@ -20,13 +20,19 @@ h1{
 .half-width img{
     width: 100%;
 }
-.half-width button{
+.half-width .link-button{
     color: #fff;
-    background-image: linear-gradient(  #FF9571 ,#FF6A4D );
+    background-image: linear-gradient(  #ffb9a2 ,#FF6A4D );
     padding: 10px 40px;
     border: none;
     border-radius: 4px;
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 600;
+    text-decoration: none;
+}
+.top{
+    background-image: url('images/top-banner.png');
+    height: 500px;
+    background-repeat: no-repeat;
 }
